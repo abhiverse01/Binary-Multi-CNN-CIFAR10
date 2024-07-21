@@ -1,0 +1,43 @@
+# Set the default behavior, in case users don't have core.autocrlf set.
+* text=auto
+
+# Declare files that will always have CRLF line endings on checkout.
+*.bat     text eol=crlf
+*.cmd     text eol=crlf
+
+# Declare files that will always have LF line endings on checkout.
+*.sh      text eol=lf
+*.py      text eol=lf
+*.ipynb   text eol=lf
+
+# Custom diff settings for Jupyter Notebooks
+*.ipynb   merge=jupyternotebook
+
+# Set the default behavior for images
+*.jpg     binary
+*.jpeg    binary
+*.png     binary
+*.gif     binary
+*.bmp     binary
+*.tiff    binary
+
+# Data files
+*.csv     text
+*.tsv     text
+
+# Models
+*.joblib  binary
+*.h5      binary
+
+# Ignore logs and binary files for git diff
+*.log     -diff
+*.sqlite3 -diff
+
+# Merge strategies for common file types
+*.lock    merge=ours
+
+# Ensure markdown files retain text attributes
+*.md      text
+
+# Ensure JSON files retain text attributes
+*.json    text
