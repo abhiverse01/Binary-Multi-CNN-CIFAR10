@@ -1,4 +1,5 @@
-# CNN-Model-for-Binary & Multi-Class-Classification-using-CIFAR-10-Dataset
+# Binary-Multi-CNN-CIFAR10
+**CNN-Model-for-Binary & Multi-Class-Classification-using-CIFAR-10-Dataset**
 - Contains my project code for two CNN models, one trained for binary classification while the other made for multi-class classification. It utillises the CIFAR-10 dataset. 
 
 - This project showcases an image classification application built using TensorFlow. The application utilizes convolutional neural networks (CNNs) to classify images from the CIFAR-10 dataset into multiple classes for multi-class classification and into two classes for binary classification.
